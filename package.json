@@ -1,0 +1,30 @@
+{
+  "name": "rproxy",
+  "version": "1.0.0",
+  "description": "HTTP reverse proxy implementation based on Node.js and Docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BackendStack21/rproxy.git"
+  },
+  "keywords": [
+    "http",
+    "reverse",
+    "proxy",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Rolando Santamaria Maso <kyberneees@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BackendStack21/rproxy/issues"
+  },
+  "homepage": "https://github.com/BackendStack21/rproxy#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "fast-gateway": "^3.0.0"
+  }
+}
