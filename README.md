@@ -23,6 +23,11 @@ module.exports = {
 }
 ```
 
+### Running locally using Docker
+```bash
+docker run --rm -p 8080:8080 -v $(pwd)/config.js:/rproxy/src/config.js kyberneees/rproxy:latest
+```
+
 ### Dockerfile
 ```Dockerfile
 FROM kyberneees/rproxy:latest
