@@ -18,6 +18,10 @@ module.exports = {
   routes: [{
     prefix: '/api',
     target: 'https://httpbin.org'
+  }, {
+    proxyType: 'websocket',
+    prefix: '/echo',
+    target: 'ws://ws.ifelse.io'
   }]
 
 }
