@@ -1,6 +1,6 @@
 {
   "name": "rproxy",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "HTTP reverse proxy implementation based on Node.js and Docker",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   "homepage": "https://github.com/BackendStack21/rproxy#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "fast-gateway": "^3.4.4",
+    "fast-gateway": "^3.4.5",
     "faye-websocket": "^0.11.4"
   }
 }
