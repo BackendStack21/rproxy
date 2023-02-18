@@ -1,4 +1,8 @@
 # rproxy
+[![build images](https://github.com/BackendStack21/rproxy/actions/workflows/build_images.yaml/badge.svg)](https://github.com/BackendStack21/rproxy/actions/workflows/build_images.yaml)
+
+<img src="logo.svg" width="400">  
+
 HTTP reverse proxy implementation based on Node.js and Docker. 
 
 `rproxy` is based on `fast-gateway` and is a ready to use Docker container image for implementing reverse proxies or API Gateways.
