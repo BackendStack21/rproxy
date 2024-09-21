@@ -1,6 +1,6 @@
 {
   "name": "rproxy",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "HTTP reverse proxy implementation based on Node.js and Docker",
   "main": "index.js",
   "scripts": {
